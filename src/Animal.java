@@ -1,6 +1,6 @@
 public class Animal {
 
-    private String type;
+    protected String type; // Conditional Encapsulation
     private String size;
     private double weight;
 
