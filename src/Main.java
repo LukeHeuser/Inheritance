@@ -6,8 +6,8 @@ public class Main {
 
         Dog dog = new Dog();
         doAnimalStuff(dog, "Fast:"); // This invocation passes a `dog object` as the method
-                                            // argument when the type was declared as an animal.
-                                            // This works because Dog inherits from Animal
+        // argument when the type was declared as an animal.
+        // This works because Dog inherits from Animal
 
         Dog yorkie = new Dog();
         doAnimalStuff(yorkie, "fast");
